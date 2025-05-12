@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<!-- ‼️ The “-windows” suffix is required for WinForms / Clipboard -->
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="InputSimulatorCore" Version="1.0.5" />
+		<PackageReference Include="Newtonsoft.Json"   Version="13.0.3" />
+	</ItemGroup>
+
+
+</Project>
