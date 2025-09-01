@@ -133,8 +133,8 @@ internal class Program
                     ["id"] = anchorId,
                     ["x"] = 0,
                     ["y"] = 0,
-                    ["width"] = 1,
-                    ["height"] = 1,
+                    ["width"] = 40,
+                    ["height"] = 40,
                     ["type"] = "text",
                     ["text"] = ""
                 });
